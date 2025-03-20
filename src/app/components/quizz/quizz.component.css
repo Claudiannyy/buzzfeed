@@ -1,15 +1,22 @@
 .quizz_container{
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-}
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+img{
+  width: 90%;
+}
 .quizz_logo{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  padding: 10% 5% 5% 5%;
+  height: 30vh;
+  font-family:  Arial;
 }
 
 .quizz_logo > h3{
@@ -23,31 +30,34 @@
   border:1px solid #4224d9;
   border-radius: 8px;
   background-color: #644ED2;
-  width: 100%;
-  height: 200px;
+  width: 80vw;
+  height: 40vh;
   font-size: 20px;
   font-family: 'Segoe UI';
-  margin-bottom: 20px;
+  margin:2% 8%;
+  text-align: center;
+  padding: 2%;
 }
 
 .quizz_options{
   display: flex;
   flex-wrap: wrap;
+  gap:10px;
   justify-content: center;
-  margin: auto;
   margin-bottom: 20px;
+  width: 100vw;
 }
 
 .btn-option{
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #18ab29;
-  width: 50%;
+  width: 40%;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 1.063rem;
   padding: 16px 31px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
@@ -63,13 +73,20 @@
 }
 
 .quizz_results{
-  width: 100%;
-  height: 350px;
+  width: 80%;
+  height: 40%;
   background-color: #1F0539;
   border-radius: 10px;
-  padding: 30px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  margin: 5%;
+}
+.quizz_results p{
+  font-size: 1.5rem;
+  text-align: center;
 }
