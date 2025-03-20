@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './quizz.component.css'
 })
 export class QuizzComponent {
-
+  imageUrl= 'assets/images/logo.png';
 }
